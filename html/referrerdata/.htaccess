@@ -1,6 +1,6 @@
 
 RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^http://prognose2.met.fu-berlin.de/ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.wetterturnier.de/ [NC]
 RewriteRule \.(?:jpg|jpeg|png|gif|txt|dat|json)$ /publicdata/noaccess.svg [NC,R,L]
 
 ##RewriteEngine On

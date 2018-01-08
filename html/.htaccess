@@ -6,6 +6,11 @@ RewriteRule "^fehler/form.php" "/wp-content/plugins/wp-wetterturnier/user/autosu
 
 RewriteBase /
 RewriteRule ^export-(.*)$ wp-content/plugins/wp-wetterturnier/user/views/export.php?APIKEY=$1 [NC,L]
+
+# Forwarding old archive output
+# Old name: /archiv/wert_i/wert171215.txt
+RewriteBase /
+RewriteRule ^archiv/wert_([a-z])/wert([0-9]{6})\.txt$ wp-content/plugins/wp-wetterturnier/oldarchive.php?city=$1&date=$2 [L,NC]
 </IfModule>
 
 # Prevent execution of wp-config.php

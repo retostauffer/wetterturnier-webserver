@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the bbPress Messages package.
 msgid ""
 msgstr ""
-"Project-Id-Version: bbPress Messages 2.0.7\n"
+"Project-Id-Version: bbPress Messages 2.0.8\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbp-messages\n"
-"POT-Creation-Date: 2017-03-13 16:45:50+00:00\n"
+"POT-Creation-Date: 2017-09-18 21:07:43+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#. #-#-#-#-#  bbp-messages.pot (bbPress Messages 2.0.7)  #-#-#-#-#
+#. #-#-#-#-#  bbp-messages.pot (bbPress Messages 2.0.8)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: BbpMessages.php:24 Inc/Admin/Screen.php:13
 msgid "bbPress Messages"
@@ -54,8 +54,8 @@ msgstr ""
 msgid "bbPM importer"
 msgstr ""
 
-#: Inc/Admin/Importers/bbPMessages.php:68 Inc/Core/Init.php:176
-#: Inc/Core/Init.php:355 Inc/Core/Init.php:1005
+#: Inc/Admin/Importers/bbPMessages.php:68 Inc/Core/Init.php:178
+#: Inc/Core/Init.php:357 Inc/Core/Init.php:1007
 msgid "Error: Bad authentication!"
 msgstr ""
 
@@ -175,159 +175,181 @@ msgstr ""
 msgid "Send out HTML emails (mail headers setting)"
 msgstr ""
 
-#: Inc/Admin/Settings.php:112
+#: Inc/Admin/Settings.php:109
+msgid "Menu Settings"
+msgstr ""
+
+#: Inc/Admin/Settings.php:113
+msgid "Add messages menu item to menu:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:115
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: Inc/Admin/Settings.php:126
+msgid "Menu item text:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:129
+msgid ""
+"Use <a href=\"?page=bbpm-shortcodes\"><code>[bbpm-unread-count]</code></a> "
+"shortcode to insert the unread counter."
+msgstr ""
+
+#: Inc/Admin/Settings.php:141
 msgid "Advanced settings"
 msgstr ""
 
-#: Inc/Admin/Settings.php:118
+#: Inc/Admin/Settings.php:147
 msgid "Cache Settings"
 msgstr ""
 
-#: Inc/Admin/Settings.php:123
+#: Inc/Admin/Settings.php:152
 msgid "Cache context:"
 msgstr ""
 
-#: Inc/Admin/Settings.php:132
+#: Inc/Admin/Settings.php:161
 msgid "Current cache status:"
 msgstr ""
 
-#: Inc/Admin/Settings.php:133
+#: Inc/Admin/Settings.php:162
 msgid "- WP Object Cache:"
 msgstr ""
 
-#: Inc/Admin/Settings.php:133
+#: Inc/Admin/Settings.php:162
 msgid "External object cache is available"
 msgstr ""
 
-#: Inc/Admin/Settings.php:133
+#: Inc/Admin/Settings.php:162
 msgid "External object cache is not available"
 msgstr ""
 
-#: Inc/Admin/Settings.php:134
+#: Inc/Admin/Settings.php:163
 msgid "- Transients:"
 msgstr ""
 
-#: Inc/Admin/Settings.php:134
+#: Inc/Admin/Settings.php:163
 msgid "Same as WP Object Cache, performs external object caching"
 msgstr ""
 
-#: Inc/Admin/Settings.php:134
+#: Inc/Admin/Settings.php:163
 msgid "Uses options API to store cache"
 msgstr ""
 
-#: Inc/Admin/Settings.php:137
+#: Inc/Admin/Settings.php:166
 msgid "Delete transients from database:"
 msgstr ""
 
-#: Inc/Admin/Settings.php:138
+#: Inc/Admin/Settings.php:167
 msgctxt "delete transients"
 msgid "expired"
 msgstr ""
 
-#: Inc/Admin/Settings.php:139
+#: Inc/Admin/Settings.php:168
 msgctxt "delete transients"
 msgid "all"
 msgstr ""
 
-#: Inc/Admin/Settings.php:146
+#: Inc/Admin/Settings.php:175
 msgid "Auto-delete older messages"
 msgstr ""
 
-#: Inc/Admin/Settings.php:152
+#: Inc/Admin/Settings.php:181
 msgid "Purge messages older than %s days. (leave empty to disable)"
 msgstr ""
 
-#: Inc/Admin/Settings.php:158
+#: Inc/Admin/Settings.php:187
 msgid ""
 "This setting allows you to purge older messages from the database. Choose "
 "how many days the message sent date is older than, and the weekly cleanup "
 "task will cleanup messages accordingly."
 msgstr ""
 
-#: Inc/Admin/Settings.php:166 Inc/Admin/Settings.php:169
+#: Inc/Admin/Settings.php:195 Inc/Admin/Settings.php:198
 #: templates/messages/single-settings.php:59
 msgid "Save Changes"
 msgstr ""
 
-#: Inc/Admin/Settings.php:196
+#: Inc/Admin/Settings.php:225
 msgid "Successfully deleted %d expired transients."
 msgstr ""
 
-#: Inc/Admin/Settings.php:201
+#: Inc/Admin/Settings.php:230
 msgid "Successfully deleted %d transients."
 msgstr ""
 
-#: Inc/Admin/Settings.php:251
+#: Inc/Admin/Settings.php:294
 msgid "Changes saved successfully!"
 msgstr ""
 
-#: Inc/Core/Init.php:186
+#: Inc/Core/Init.php:188
 msgid "Error occured processing your request."
 msgstr ""
 
-#: Inc/Core/Init.php:194
+#: Inc/Core/Init.php:196
 msgid "Error: Could not find a sender for this message!"
 msgstr ""
 
-#: Inc/Core/Init.php:213
+#: Inc/Core/Init.php:215
 msgid "Error: Invalid recipient specified!"
 msgstr ""
 
-#: Inc/Core/Init.php:235
+#: Inc/Core/Init.php:237
 msgid "Error: Could not find a chat ID for this message!"
 msgstr ""
 
-#: Inc/Core/Init.php:397 Inc/Core/Init.php:414
+#: Inc/Core/Init.php:399 Inc/Core/Init.php:416
 msgid "Error: Please select at least 1 message for this action!"
 msgstr ""
 
-#: Inc/Core/Init.php:408
+#: Inc/Core/Init.php:410
 msgid "Your messages are being deleted."
 msgstr ""
 
-#: Inc/Core/Init.php:435
+#: Inc/Core/Init.php:437
 msgid "Error: Invalid bulk action!"
 msgstr ""
 
-#: Inc/Core/Init.php:452
+#: Inc/Core/Init.php:454
 msgid "Messages"
 msgstr ""
 
-#: Inc/Core/Init.php:456 templates/widgets/welcome.php:28
+#: Inc/Core/Init.php:458 templates/widgets/welcome.php:28
 msgid "Messages (%d)"
 msgstr ""
 
-#: Inc/Core/Init.php:596 Inc/Core/Init.php:622
+#: Inc/Core/Init.php:598 Inc/Core/Init.php:624
 msgid "Invalid user! Please search and select a recipient below."
 msgstr ""
 
-#: Inc/Core/Init.php:649
+#: Inc/Core/Init.php:651
 msgid ""
 "Sorry, you cannot contact this user. Please search and select a recipient "
 "below."
 msgstr ""
 
-#: Inc/Core/Init.php:712
+#: Inc/Core/Init.php:714
 msgid "Error: Could not find chat!"
 msgstr ""
 
-#: Inc/Core/Init.php:995
+#: Inc/Core/Init.php:997
 msgid "Settings updated successfully!"
 msgstr ""
 
-#: Inc/Core/Init.php:1016
+#: Inc/Core/Init.php:1018
 msgid "Your chat is being deleted."
 msgstr ""
 
-#: Inc/Core/Init.php:1031
+#: Inc/Core/Init.php:1033
 msgid "Chat successfully marked unread."
 msgstr ""
 
-#: Inc/Core/Init.php:1038
+#: Inc/Core/Init.php:1040
 msgid "Error: could not mark chat unread."
 msgstr ""
 
-#: Inc/Core/Init.php:1060
+#: Inc/Core/Init.php:1062
 msgid "Sorry, you cannot contact this user!"
 msgstr ""
 
@@ -627,11 +649,11 @@ msgid ""
 "screen."
 msgstr ""
 
-#: Inc/Core/functions.php:694
+#: Inc/Core/functions.php:695
 msgid "Send %s a Message"
 msgstr ""
 
-#: Inc/Core/functions.php:697
+#: Inc/Core/functions.php:698
 msgid "Send a Message"
 msgstr ""
 
@@ -729,7 +751,7 @@ msgstr ""
 msgid "Type a message:"
 msgstr ""
 
-#: templates/messages/new.php:29
+#: templates/messages/new.php:29 templates/widgets/new-message.php:36
 msgid "Send"
 msgstr ""
 
