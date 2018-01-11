@@ -1,6 +1,12 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+
+# Suppress access to default login script
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*(wp-login.php\?action=register).* [NC]
+RewriteRule ^(.*)$ - [F,L]
+
 RewriteRule "^autosubmit/?" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
 RewriteRule "^fehler/form.php" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
 
