@@ -1,0 +1,15 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://www.wetterturnier.de/ [NC]
+RewriteRule \.(?:jpg|jpeg|png|gif|txt|dat|json)$ /publicdata/noaccess.svg [NC,R,L]
+
+##RewriteEngine On
+##RewriteCond %{HTTP_REFERER} !^http://prognose2.met.fu-berlin.de/
+##RewriteRule .* /publicdata/noaccess.gif
+
+##RewriteEngine on
+##RewriteCond %{HTTP_REFERER} !^$
+##RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yourdomain.com [NC]
+##RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yordomain2.com [NC]
+##RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yordomain3.com [NC]
+##RewriteRule \.(jpg|jpeg|png|gif)$ http://page-to-redirect [NC,R,L]

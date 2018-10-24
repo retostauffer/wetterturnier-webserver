@@ -1,0 +1,926 @@
+# Copyright (C) 2017 bbPress Messages
+# This file is distributed under the same license as the bbPress Messages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress Messages 2.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbp-messages\n"
+"POT-Creation-Date: 2017-09-18 21:07:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  bbp-messages.pot (bbPress Messages 2.0.8)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: BbpMessages.php:24 Inc/Admin/Screen.php:13
+msgid "bbPress Messages"
+msgstr ""
+
+#: CheckReady.php:68
+msgid "Deactivating plugin.."
+msgstr ""
+
+#: Inc/Admin/Admin.php:130 Inc/Admin/Screen.php:23 Inc/Admin/Screen.php:24
+#: Inc/Admin/Settings.php:37
+msgid "Settings"
+msgstr ""
+
+#: Inc/Admin/Admin.php:131
+msgid "About"
+msgstr ""
+
+#: Inc/Admin/Admin.php:164 Inc/Admin/Admin.php:165
+msgid "Welcome to bbPress Messages"
+msgstr ""
+
+#: Inc/Admin/Admin.php:207
+msgid ""
+"<strong>bbPress Messages error</strong>: database error, the main database "
+"table was not inserted correctly. If you have just updated the plugin, "
+"please deactivate it and activate it once again, otherwise, please consult "
+"the support forums for help."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:30
+msgid ""
+"<strong>bbPress Messages v2:</strong> Import older messages now from legacy "
+"data table. Click <a href=\"%1$s\">here</a> to begin import or <a href=\"%2$s"
+"\">dismiss</a> this notice."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:45
+msgid "bbPM importer"
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:68 Inc/Core/Init.php:178
+#: Inc/Core/Init.php:357 Inc/Core/Init.php:1007
+msgid "Error: Bad authentication!"
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:85
+msgid "Import older messages from legacy database table <code>%s</code>."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:87
+msgid ""
+"If you have already imported messages using this tool, please dismiss this "
+"as it will not prevent duplicate records from inserting."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:89
+msgid ""
+"Once you click import, the plugin will begin fetching messages from older "
+"database table and appending them to the new one."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:91
+msgid ""
+"Please make sure not to cancel the import by pressing the escape key, or "
+"browser refresh or back button, until it is fully done."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:93
+msgid ""
+"Please note that this may take a while, depending on how many messages we're "
+"importing, just in case you were confused."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:95
+msgid "Delete <code>%s</code> legacy database table after import done"
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:99
+msgid "Begin Import"
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:275
+msgid "Error occured, no messages were imported."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:278
+msgid ""
+"Import done: successfully imported %1$d messages from %2$d total (IDs from "
+"%3$d to %4$d)"
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:288
+msgid "Database table %s successfully deleted."
+msgstr ""
+
+#: Inc/Admin/Importers/bbPMessages.php:293
+msgid "Error: Could not delete database table %s."
+msgstr ""
+
+#: Inc/Admin/Screen.php:14
+msgid "bbP Messages"
+msgstr ""
+
+#: Inc/Admin/Screen.php:23 Inc/Admin/Screen.php:37
+msgid "%s &lsaquo; bbPress Messages"
+msgstr ""
+
+#: Inc/Admin/Screen.php:87
+msgid "No tabs loaded yet."
+msgstr ""
+
+#: Inc/Admin/Screen.php:159
+msgid "%1$s &lsaquo; %2$s"
+msgstr ""
+
+#: Inc/Admin/Screen.php:208
+msgid "This custom tab does not appear to have a valid content callback."
+msgstr ""
+
+#: Inc/Admin/Settings.php:55
+msgid "Pagination"
+msgstr ""
+
+#: Inc/Admin/Settings.php:59
+msgid "Messages per page:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:66
+msgid "Chats per page:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:74
+msgid "Notification email"
+msgstr ""
+
+#: Inc/Admin/Settings.php:78
+msgid "Email subject:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:84
+msgid ""
+"Patterns:<br/><code>%1$s</code>: Blog name,<br/><code>%2$s</code>: Chat/"
+"sender name"
+msgstr ""
+
+#: Inc/Admin/Settings.php:90
+msgid "Email body:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:92
+msgid ""
+"Patterns:<br/><code>%1$s</code>: Current user name,<br/><code>%2$s</code>: "
+"Chat/sender name,<br/><code>%3$s</code>: blog name,<br/><code>%4$s</code>: "
+"message excerpt,<br/><code>%5$s</code>: chat url,<br/><code>%6$s</code>: "
+"chat settings url"
+msgstr ""
+
+#: Inc/Admin/Settings.php:101
+msgid "Send out HTML emails (mail headers setting)"
+msgstr ""
+
+#: Inc/Admin/Settings.php:109
+msgid "Menu Settings"
+msgstr ""
+
+#: Inc/Admin/Settings.php:113
+msgid "Add messages menu item to menu:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:115
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: Inc/Admin/Settings.php:126
+msgid "Menu item text:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:129
+msgid ""
+"Use <a href=\"?page=bbpm-shortcodes\"><code>[bbpm-unread-count]</code></a> "
+"shortcode to insert the unread counter."
+msgstr ""
+
+#: Inc/Admin/Settings.php:141
+msgid "Advanced settings"
+msgstr ""
+
+#: Inc/Admin/Settings.php:147
+msgid "Cache Settings"
+msgstr ""
+
+#: Inc/Admin/Settings.php:152
+msgid "Cache context:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:161
+msgid "Current cache status:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:162
+msgid "- WP Object Cache:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:162
+msgid "External object cache is available"
+msgstr ""
+
+#: Inc/Admin/Settings.php:162
+msgid "External object cache is not available"
+msgstr ""
+
+#: Inc/Admin/Settings.php:163
+msgid "- Transients:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:163
+msgid "Same as WP Object Cache, performs external object caching"
+msgstr ""
+
+#: Inc/Admin/Settings.php:163
+msgid "Uses options API to store cache"
+msgstr ""
+
+#: Inc/Admin/Settings.php:166
+msgid "Delete transients from database:"
+msgstr ""
+
+#: Inc/Admin/Settings.php:167
+msgctxt "delete transients"
+msgid "expired"
+msgstr ""
+
+#: Inc/Admin/Settings.php:168
+msgctxt "delete transients"
+msgid "all"
+msgstr ""
+
+#: Inc/Admin/Settings.php:175
+msgid "Auto-delete older messages"
+msgstr ""
+
+#: Inc/Admin/Settings.php:181
+msgid "Purge messages older than %s days. (leave empty to disable)"
+msgstr ""
+
+#: Inc/Admin/Settings.php:187
+msgid ""
+"This setting allows you to purge older messages from the database. Choose "
+"how many days the message sent date is older than, and the weekly cleanup "
+"task will cleanup messages accordingly."
+msgstr ""
+
+#: Inc/Admin/Settings.php:195 Inc/Admin/Settings.php:198
+#: templates/messages/single-settings.php:59
+msgid "Save Changes"
+msgstr ""
+
+#: Inc/Admin/Settings.php:225
+msgid "Successfully deleted %d expired transients."
+msgstr ""
+
+#: Inc/Admin/Settings.php:230
+msgid "Successfully deleted %d transients."
+msgstr ""
+
+#: Inc/Admin/Settings.php:294
+msgid "Changes saved successfully!"
+msgstr ""
+
+#: Inc/Core/Init.php:188
+msgid "Error occured processing your request."
+msgstr ""
+
+#: Inc/Core/Init.php:196
+msgid "Error: Could not find a sender for this message!"
+msgstr ""
+
+#: Inc/Core/Init.php:215
+msgid "Error: Invalid recipient specified!"
+msgstr ""
+
+#: Inc/Core/Init.php:237
+msgid "Error: Could not find a chat ID for this message!"
+msgstr ""
+
+#: Inc/Core/Init.php:399 Inc/Core/Init.php:416
+msgid "Error: Please select at least 1 message for this action!"
+msgstr ""
+
+#: Inc/Core/Init.php:410
+msgid "Your messages are being deleted."
+msgstr ""
+
+#: Inc/Core/Init.php:437
+msgid "Error: Invalid bulk action!"
+msgstr ""
+
+#: Inc/Core/Init.php:454
+msgid "Messages"
+msgstr ""
+
+#: Inc/Core/Init.php:458 templates/widgets/welcome.php:28
+msgid "Messages (%d)"
+msgstr ""
+
+#: Inc/Core/Init.php:598 Inc/Core/Init.php:624
+msgid "Invalid user! Please search and select a recipient below."
+msgstr ""
+
+#: Inc/Core/Init.php:651
+msgid ""
+"Sorry, you cannot contact this user. Please search and select a recipient "
+"below."
+msgstr ""
+
+#: Inc/Core/Init.php:714
+msgid "Error: Could not find chat!"
+msgstr ""
+
+#: Inc/Core/Init.php:997
+msgid "Settings updated successfully!"
+msgstr ""
+
+#: Inc/Core/Init.php:1018
+msgid "Your chat is being deleted."
+msgstr ""
+
+#: Inc/Core/Init.php:1033
+msgid "Chat successfully marked unread."
+msgstr ""
+
+#: Inc/Core/Init.php:1040
+msgid "Error: could not mark chat unread."
+msgstr ""
+
+#: Inc/Core/Init.php:1062
+msgid "Sorry, you cannot contact this user!"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:13
+msgid ""
+"Specify which user to get the unread messages count. (Optional, defaults to "
+"current user ID if logged-in.)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:14
+msgid ""
+"If true, we will count only how many chats have unread messages, instead of "
+"total unread messages. (Optional, defaults to false)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:16
+msgid "Get the unread messages/chats counts for a given user."
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:21
+msgid "Specify which user to return link to chat with. (required)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:22
+msgid ""
+"Specify which for which user to return the contact link. (Optional, defaults "
+"to current logged-in user)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:24
+msgid ""
+"Returns an URL to chat with the user ID specified. If no user is logged-in, "
+"it will return a login URL."
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:29
+msgid ""
+"Specify which user to return messages link. (Optional, defaults to current "
+"user if logged-in)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:31
+msgid ""
+"Get the messages URL of a given user, where they can browse their messages."
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:36
+msgid ""
+"Specify which user to return messages count. (Optional, defaults to current "
+"user if logged-in)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:37
+msgid ""
+"Count total messages in a single chat, specify the chat ID or the user "
+"contact."
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:39
+msgid "Counts users total messages for all chats or a single chat"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:44
+msgid ""
+"Specify which user to return unread messages count. (Optional, defaults to "
+"current user if logged-in)"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:45
+msgid ""
+"Count total unread messages in a single chat, specify the chat ID or the "
+"user contact."
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:47
+msgid "Counts users total unread messages for a single chat"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:194
+msgid "Shortcodes"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:206 Inc/Core/Shortcodes.php:245
+msgctxt "shortcodes admin"
+msgid "Shortcode"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:207 Inc/Core/Shortcodes.php:246
+msgctxt "shortcodes admin"
+msgid "Usage"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:208 Inc/Core/Shortcodes.php:247
+msgctxt "shortcodes admin"
+msgid "Attributes"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:223 Inc/Core/Shortcodes.php:236
+msgid "NULL"
+msgstr ""
+
+#: Inc/Core/Shortcodes.php:252
+msgid ""
+"See <a href=\"https://codex.wordpress.org/Shortcode\">Shortcode</a> "
+"documentation if you need help with shortcodes."
+msgstr ""
+
+#: Inc/Core/Widgets/MyChats.php:8
+msgid "bbPM My Chats"
+msgstr ""
+
+#: Inc/Core/Widgets/MyChats.php:10
+msgid "Lists current user's recent chats"
+msgstr ""
+
+#: Inc/Core/Widgets/MyChats.php:57 Inc/Core/Widgets/MyContacts.php:44
+#: Inc/Core/Widgets/MyMessages.php:72 Inc/Core/Widgets/NewMessage.php:36
+#: Inc/Core/Widgets/Search.php:34 Inc/Core/Widgets/Welcome.php:34
+msgid "Widget Title:"
+msgstr ""
+
+#: Inc/Core/Widgets/MyChats.php:62 Inc/Core/Widgets/MyContacts.php:49
+#: Inc/Core/Widgets/MyMessages.php:77
+msgid "Max items:"
+msgstr ""
+
+#: Inc/Core/Widgets/MyChats.php:68
+msgid "List unread chats only"
+msgstr ""
+
+#: Inc/Core/Widgets/MyContacts.php:8
+msgid "bbPM My Contacts"
+msgstr ""
+
+#: Inc/Core/Widgets/MyContacts.php:10
+msgid "Lists current user's contacts"
+msgstr ""
+
+#: Inc/Core/Widgets/MyMessages.php:8
+msgid "bbPM My Messages"
+msgstr ""
+
+#: Inc/Core/Widgets/MyMessages.php:10
+msgid "Lists current user's recent messages"
+msgstr ""
+
+#: Inc/Core/Widgets/MyMessages.php:83
+msgid "Group by chat (list 1 message per chat)"
+msgstr ""
+
+#: Inc/Core/Widgets/NewMessage.php:8
+msgid "bbPM new message"
+msgstr ""
+
+#: Inc/Core/Widgets/NewMessage.php:10
+msgid ""
+"Allows current user to easily compose a new message selecting recipients "
+"from the dropdown"
+msgstr ""
+
+#: Inc/Core/Widgets/Search.php:8
+msgid "bbPM Chats Search Form"
+msgstr ""
+
+#: Inc/Core/Widgets/Search.php:10
+msgid "Prints out a search form for searching user chats"
+msgstr ""
+
+#: Inc/Core/Widgets/Welcome.php:8
+msgid "bbPM Welcome"
+msgstr ""
+
+#: Inc/Core/Widgets/Welcome.php:10
+msgid ""
+"Widget with user welcoming note, messages links with unread counts, and a "
+"logout link"
+msgstr ""
+
+#: Inc/Core/functions.php:127
+msgctxt "time quantities"
+msgid "a moment"
+msgstr ""
+
+#: Inc/Core/functions.php:139
+msgctxt "time quantities"
+msgid "year"
+msgstr ""
+
+#: Inc/Core/functions.php:140
+msgctxt "time quantities"
+msgid "month"
+msgstr ""
+
+#: Inc/Core/functions.php:141
+msgctxt "time quantities"
+msgid "day"
+msgstr ""
+
+#: Inc/Core/functions.php:142
+msgctxt "time quantities"
+msgid "hour"
+msgstr ""
+
+#: Inc/Core/functions.php:143
+msgctxt "time quantities"
+msgid "minute"
+msgstr ""
+
+#: Inc/Core/functions.php:144
+msgctxt "time quantities"
+msgid "second"
+msgstr ""
+
+#: Inc/Core/functions.php:145
+msgctxt "time quantities"
+msgid "years"
+msgstr ""
+
+#: Inc/Core/functions.php:146
+msgctxt "time quantities"
+msgid "months"
+msgstr ""
+
+#: Inc/Core/functions.php:147
+msgctxt "time quantities"
+msgid "days"
+msgstr ""
+
+#: Inc/Core/functions.php:148
+msgctxt "time quantities"
+msgid "hours"
+msgstr ""
+
+#: Inc/Core/functions.php:149
+msgctxt "time quantities"
+msgid "minutes"
+msgstr ""
+
+#: Inc/Core/functions.php:150
+msgctxt "time quantities"
+msgid "seconds"
+msgstr ""
+
+#: Inc/Core/functions.php:294
+msgid "Type a message.."
+msgstr ""
+
+#: Inc/Core/functions.php:454 Inc/Core/functions.php:462
+msgid "&nbsp;<em class=\"bbpm-inline-tooltip\">[pending-delete]</em>"
+msgstr ""
+
+#: Inc/Core/functions.php:509
+msgctxt "page title format"
+msgid "%1$s | %2$s"
+msgstr ""
+
+#: Inc/Core/functions.php:516 Inc/Core/functions.php:535
+#: Inc/Core/functions.php:540
+msgctxt "page title format"
+msgid "Messages"
+msgstr ""
+
+#: Inc/Core/functions.php:521
+msgctxt "page title format"
+msgid "%s &rsaquo; Settings"
+msgstr ""
+
+#: Inc/Core/functions.php:525
+msgctxt "page title format"
+msgid "Edit chat"
+msgstr ""
+
+#: Inc/Core/functions.php:531
+msgctxt "page title format"
+msgid "Messages &rsaquo; %s"
+msgstr ""
+
+#: Inc/Core/functions.php:538
+msgctxt "page title format"
+msgid "New Message"
+msgstr ""
+
+#: Inc/Core/functions.php:599
+msgid ""
+"Dear %1$s,\n"
+"%2$s has recently sent you new messages on %3$s:\n"
+"\n"
+"\"%4$s\"\n"
+"\n"
+"To read and reply to this message, click the link below:\n"
+"%5$s\n"
+"\n"
+"To unsubscribe from notifications from this chat, follow below-link:\n"
+"%6$s\n"
+"\n"
+"To unsubscribe from all notifications, please navigate to your profile edit "
+"screen."
+msgstr ""
+
+#: Inc/Core/functions.php:695
+msgid "Send %s a Message"
+msgstr ""
+
+#: Inc/Core/functions.php:698
+msgid "Send a Message"
+msgstr ""
+
+#: Inc/Core/integrate.php:49
+msgid "Allow email notifications of new messages"
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:572
+msgid "Chat ID missing: could not find or generate a chat ID."
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:578
+msgid "Error: Cannot send an empty message."
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:592
+msgid "Error: please set at least 1 recipient for this message."
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:600
+#: Inc/Lib/wp-messages/src/wp-messages.php:607
+msgid "Error: Could not find a sender for this message."
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:658
+msgid "Error: Could not successfully insert this message into the database."
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:1287
+msgid "WP Messages interval"
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:1291
+msgid "Weekly"
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:1937
+#: Inc/Lib/wp-messages/src/wp-messages.php:2010
+#: Inc/Lib/wp-messages/src/wp-messages.php:2167
+#: Inc/Lib/wp-messages/src/wp-messages.php:2238
+msgctxt "Pagination previous"
+msgid "&larr;"
+msgstr ""
+
+#: Inc/Lib/wp-messages/src/wp-messages.php:1938
+#: Inc/Lib/wp-messages/src/wp-messages.php:2011
+#: Inc/Lib/wp-messages/src/wp-messages.php:2168
+#: Inc/Lib/wp-messages/src/wp-messages.php:2239
+msgctxt "Pagination next"
+msgid "&rarr;"
+msgstr ""
+
+#: templates/messages/chats.php:16
+msgid "&plus; New Message"
+msgstr ""
+
+#: templates/messages/chats.php:24 templates/messages/new.php:43
+#: templates/messages/single-chat.php:35 templates/widgets/search.php:12
+msgid "Search"
+msgstr ""
+
+#: templates/messages/chats.php:35 templates/messages/single-chat.php:46
+msgid "Showing search results for \"%s\":"
+msgstr ""
+
+#: templates/messages/chats.php:53
+msgid ""
+"No chats have matched your search query, please try again with a different "
+"search term"
+msgstr ""
+
+#: templates/messages/chats.php:57
+msgid ""
+"There are no chats to show. Get started by <a href=\"%s\">sending a message "
+"&raquo;</a>"
+msgstr ""
+
+#: templates/messages/loop-chat.php:7 templates/messages/single-chat.php:13
+msgid "Chat icon"
+msgstr ""
+
+#: templates/messages/loop-chat.php:17
+msgid "You"
+msgstr ""
+
+#: templates/messages/loop-chat.php:36
+msgid "View chat"
+msgstr ""
+
+#: templates/messages/new.php:12
+msgid "Send a new message to %s:"
+msgstr ""
+
+#: templates/messages/new.php:18
+msgid "Type a message:"
+msgstr ""
+
+#: templates/messages/new.php:29 templates/widgets/new-message.php:36
+msgid "Send"
+msgstr ""
+
+#: templates/messages/new.php:30 templates/messages/new.php:78
+msgid "Cancel"
+msgstr ""
+
+#: templates/messages/new.php:41
+msgid "Search and select a contact:"
+msgstr ""
+
+#: templates/messages/new.php:69
+msgid "No users have matched your search query."
+msgstr ""
+
+#: templates/messages/new.php:77
+msgid "Select recipient"
+msgstr ""
+
+#: templates/messages/single-chat.php:23
+msgid "Back to chats"
+msgstr ""
+
+#: templates/messages/single-chat.php:27
+msgid "Chat options"
+msgstr ""
+
+#: templates/messages/single-chat.php:27
+msgid "Options"
+msgstr ""
+
+#: templates/messages/single-chat.php:72
+msgid "Mark Unread"
+msgstr ""
+
+#: templates/messages/single-chat.php:84
+msgctxt "bulk actions menu"
+msgid "Bulk Actions"
+msgstr ""
+
+#: templates/messages/single-chat.php:85
+msgctxt "bulk actions menu"
+msgid "Delete"
+msgstr ""
+
+#: templates/messages/single-chat.php:91
+msgctxt "bulk actions menu"
+msgid "&check;"
+msgstr ""
+
+#: templates/messages/single-chat.php:104
+msgctxt "message read receipts"
+msgid "&check; Seen"
+msgstr ""
+
+#: templates/messages/single-chat.php:106
+msgid "Seen by %s"
+msgstr ""
+
+#: templates/messages/single-chat.php:124
+msgid ""
+"No messages have matched your search query, please try again with a "
+"different search term"
+msgstr ""
+
+#: templates/messages/single-chat.php:130
+msgid "There are no messages to show."
+msgstr ""
+
+#: templates/messages/single-settings.php:12
+msgid "Chat Settings"
+msgstr ""
+
+#: templates/messages/single-settings.php:17
+msgid "Chat name:"
+msgstr ""
+
+#: templates/messages/single-settings.php:21
+msgid "Assign a name to this chat"
+msgstr ""
+
+#: templates/messages/single-settings.php:33
+msgid "Get email notifications about new messages in this chat"
+msgstr ""
+
+#: templates/messages/single-settings.php:36
+msgid ""
+"To unsubscribe from all, you can toggle off the email notifications from "
+"your profile edit screen."
+msgstr ""
+
+#: templates/messages/single-settings.php:46
+msgid "Delete Chat"
+msgstr ""
+
+#: templates/messages/single-settings.php:48
+msgid ""
+"Warning: this action is irreversible and you cannot restore your chat "
+"messages once deleted."
+msgstr ""
+
+#: templates/messages/single-settings.php:63
+msgid "cancel"
+msgstr ""
+
+#: templates/messages/single-settings.php:70
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: templates/widgets/my-chats.php:21
+msgid "Last activity: %s ago"
+msgstr ""
+
+#: templates/widgets/my-chats.php:30
+msgid "No unread chats were found."
+msgstr ""
+
+#: templates/widgets/my-chats.php:34
+msgid "No chats were found."
+msgstr ""
+
+#: templates/widgets/my-contacts.php:25
+msgid "View Messages &rarr;"
+msgstr ""
+
+#: templates/widgets/my-contacts.php:34
+msgid "No contacts were found."
+msgstr ""
+
+#: templates/widgets/my-messages.php:22
+msgid "%s ago"
+msgstr ""
+
+#: templates/widgets/my-messages.php:31
+msgid "No messages were found."
+msgstr ""
+
+#: templates/widgets/new-message.php:19
+msgid "Select a Contact"
+msgstr ""
+
+#: templates/widgets/welcome.php:15
+msgid "Welcome, %s!"
+msgstr ""
+
+#: templates/widgets/welcome.php:32
+msgid "New message"
+msgstr ""
+
+#: templates/widgets/welcome.php:36
+msgid "Edit profile"
+msgstr ""
+
+#: templates/widgets/welcome.php:40
+msgid "Log out"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/elhardoum/bbp-messages"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Simple yet powerful private messaging system tailored for bbPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Samuel Elh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://samelh.com"
+msgstr ""

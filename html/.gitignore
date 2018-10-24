@@ -1,0 +1,14 @@
+
+# Ignore all by default
+*
+
+
+!.gitignore
+!wp-content/
+!.htaccess
+!referrerdata
+!referrerdata/maps_missing_image.png
+!referrerdata/index.html
+!wp-content/languages/bbpress
+!wp-content/languages/bbpress/*
+!publicdata/noaccess.svg

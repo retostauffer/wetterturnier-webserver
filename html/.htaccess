@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# Suppress access to default login script
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*(wp-login.php\?action=register).* [NC]
+RewriteRule ^(.*)$ - [F,L]
+
+RewriteRule "^autosubmit/?" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
+RewriteRule "^fehler/form.php" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
+
+RewriteBase /
+RewriteRule ^export-(.*)$ wp-content/plugins/wp-wetterturnier/user/views/export.php?APIKEY=$1 [NC,L]
+
+# Forwarding old archive output
+# Old name: /archiv/wert_i/wert171215.txt
+RewriteBase /
+RewriteRule ^archiv/wert_([a-z])/wert([0-9]{6})\.txt$ wp-content/plugins/wp-wetterturnier/oldarchive.php?city=$1&date=$2 [L,NC]
+</IfModule>
+
+# Prevent execution of wp-config.php
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+# Adding second layer protection for some wordpress folders
+# Block the include-only files.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+
+# WARNING the part between BEGIN and END WordPress will
+# be overwritten by wordpress updates.
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
