@@ -1,3 +1,11 @@
+
+# Maintenance mode!
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
+ RewriteRule .* /maintenance.html [R=302,L]
+</IfModule>
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
