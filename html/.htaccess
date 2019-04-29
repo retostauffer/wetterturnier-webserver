@@ -1,22 +1,24 @@
 
-# Maintenance mode!
-<IfModule mod_rewrite.c>
- RewriteEngine on
- RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
- RewriteRule .* /maintenance.html [R=302,L]
-</IfModule>
+### Maintenance mode!
+##<IfModule mod_rewrite.c>
+## RewriteEngine on
+## RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
+## RewriteRule .* /maintenance.html [R=302,L]
+##</IfModule>
 
 <IfModule mod_rewrite.c>
+Options -MultiViews
 RewriteEngine On
 RewriteBase /
 
 # Suppress access to default login script
+# Permanentely removed register ... to avoid spam shit
 RewriteEngine On
 RewriteCond %{THE_REQUEST} ^.*(wp-login.php\?action=register).* [NC]
-RewriteRule ^(.*)$ - [F,L]
+RewriteRule ^(.*)$ - [L,R=410]
 
-RewriteRule "^autosubmit/?" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
-RewriteRule "^fehler/form.php" "/wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php?" [R=301,P]
+RewriteRule ^autosubmit/(.*)$ /wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php$1 [PT]
+RewriteRule ^fehler/form.php(.*)$ /wp-content/plugins/wp-wetterturnier/user/autosubmit/autosubmit.php$1 [PT]
 
 RewriteBase /
 RewriteRule ^export-(.*)$ wp-content/plugins/wp-wetterturnier/user/views/export.php?APIKEY=$1 [NC,L]
